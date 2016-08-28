@@ -1,0 +1,18 @@
+{
+  "name": "PixelCitizen",
+  "version": "1.1.0",
+  "authors": ["Bradford Melluish"],
+  "license": "MIT",
+  "private": false,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "client/lib"
+  ],
+  "dependencies": {
+    "angular": "~1.3.16",
+    "angular-route": "~1.3.16",
+    "angular-mocks": "~1.3.16"
+  }
+}

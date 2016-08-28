@@ -1,0 +1,28 @@
+{
+  "name": "PixelCitizen",
+  "version": "1.1.0", 
+  "description": "Pixelize your Star Citizen fleet! Creates Star Citizen fleet views from user input for screen capture and sharing.",
+  "author": "Bradford Melluish",
+  "license": "MIT",
+  "private": false,
+  "engines": {
+    "node": ">=4.0.0"
+  }, 
+  "scripts": {
+    "start": "gulp start"
+  },
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.4.3",
+    "express": "^4.4.5",
+    "jwt-simple": "^0.5.0",
+    "morgan": "^1.1.1",
+    "request": "^2.36.0"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.11.2",
+    "gulp": "^3.8.5",
+    "gulp-nodemon": "^2.0.6",
+    "gulp-shell": "^0.5.2"
+  }
+}
